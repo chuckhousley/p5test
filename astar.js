@@ -12,7 +12,7 @@ var sketch = function(p) {
         grid = createGrid();
         white = p.color("white");
         //pg = p.createGraphics(squareSize, squareSize);
-        emitters.push({x: 20, y: 20, fade: 0.0, color: "#fa6607"});
+        emitters.push({x: 20, y: 20, fade: 0.0, color: "#187b9d"});
         makeAnother = 0;
     };
 
@@ -42,7 +42,7 @@ var sketch = function(p) {
         makeAnother++;
 
         if(makeAnother > 10) {
-            emitters.push({x: p.random(5, 25), y: p.random(5, 25), fade: 0.0, color: "#fa6607"});
+            emitters.push({x: p.random(5, 25), y: p.random(5, 25), fade: 0.0, color: "#187b9d"});
             makeAnother = 0;
         }
     };
